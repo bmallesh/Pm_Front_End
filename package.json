@@ -4,7 +4,7 @@
   "engine": "node >=0.6.x",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently \"nodemon server.js\" \"ng serve --proxy-config proxy.json\"",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
